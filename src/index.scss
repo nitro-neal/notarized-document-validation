@@ -63,8 +63,8 @@ body {
 }
 
 .btn-primary {
-  background-color: #2362c7;
-  border-color: #2362c7;
+  background-color: $midnight;
+  border-color: $midnight;
   @include themify($themes) {
     background-color: themed("colorPrimary");
     border-color: themed("colorPrimary");
